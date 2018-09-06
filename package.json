@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "serve": "nodemon --exec electron ."
+  },
+  "dependencies": {
+    "electron": "^2.0.8",
+    "esm": "^3.0.82",
+    "require-dir": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

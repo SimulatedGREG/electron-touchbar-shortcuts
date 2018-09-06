@@ -1,0 +1,9 @@
+<script>
+const { ipcRenderer } = require('electron')
+
+window.addEventListener('keydown', e => {
+  if (e.keyCode === 27) {
+    ipcRenderer.send('hide-window')
+  }
+})
+</script>
